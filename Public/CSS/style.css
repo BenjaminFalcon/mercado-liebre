@@ -27,6 +27,7 @@ h4 {
 
 header {
     background-color: #EAC926;
+    width: 100%;
 }
 
 .centrado {
@@ -42,8 +43,13 @@ header {
 }
 
 .burger-menu {
-    border-color: blue;
+    background-color : #1259c3;
+    width: 20px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: left; 
 }
+
 
 footer {
     text-align: center; 
@@ -54,3 +60,38 @@ footer {
     margin-bottom: 10px;
     color: #1259c3;
 }
+
+#espacio {
+    padding: 10px;
+}
+
+#margin {
+    margin: 10px;
+    text-align: center;
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+}
+
+
+h4 {
+    display: none;
+}
+
+@media (min-width: 768px) {
+h4 {
+    display: block;
+}
+
+}
+
+@media (min-width: 361px) {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    }
+
+
+    .contenedor-Logo {
+        display: flex;
+    }
