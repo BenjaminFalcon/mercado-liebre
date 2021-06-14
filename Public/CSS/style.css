@@ -10,7 +10,14 @@ body {
 }
 
 h4 {
-    font-size: 24px
+    font-size: 24px;
+    opacity: 0;
+    transition: all 300ms;
+    
+}
+
+br:hover h4 {
+    opacity: 1;
 }
 
 .precio {
@@ -28,7 +35,8 @@ h4 {
 header {
     background-color: #EAC926;
     width: 100%;
-}
+    justify-content: flex-end;
+    }
 
 .centrado {
     text-align: center;
@@ -94,4 +102,10 @@ h4 {
 
     .contenedor-Logo {
         display: flex;
+    }
+
+
+    .contenedor {
+        display: flex;
+        border-top: solid 1px #ebebeb;
     }
