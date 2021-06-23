@@ -22,10 +22,13 @@ br:hover h4 {
 
 .precio {
     font-size: 18px;
+    width: 70%;
 }
 
 .desc {
     font-size: 16px;
+    width: 30%;
+    color: #39b54a;
 }
 
 .descripciones {
@@ -70,7 +73,8 @@ footer {
 }
 
 #espacio {
-    padding: 10px;
+    padding: 1px;
+    margin-left: 40px;
 }
 
 #margin {
@@ -89,7 +93,7 @@ h4 {
 }
 
 @media (min-width: 768px) {
-h4 {
+.burger-menu {
     display: block;
 }
 
@@ -108,4 +112,40 @@ h4 {
     .contenedor {
         display: flex;
         border-top: solid 1px #ebebeb;
+        flex-direction: column;
+        position: absolute;
+        
     }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        }
+
+        main section article i{
+            display: block;
+            font-size: 16px;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #39b54a;
+            background-color: #FFF;
+            border-radius: 50%;
+            position: absolute;
+            right: 20px;
+            top: -15px;
+            }
+
+
+            .caja1 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+
+            }
+
+
+            #circulo {
+                color: #39b54a;
+            }
