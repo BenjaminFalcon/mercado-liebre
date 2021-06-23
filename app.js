@@ -3,13 +3,13 @@ const path = require ('path')
 
 const app = express()
 
-const publicPath = path.resolve (__dirname, './Public') ;
+const publicPath = path.resolve (__dirname, './public') ;
 
 app.listen(process.env.PORT || 3000, () => { 
     console.log ("servidor corriendo en el purto 3000")
 })
 
-app.use (express.static(path.resolve(__dirname, './Public')))
+app.use (express.static(path.resolve(__dirname, './public')))
 
 
 
