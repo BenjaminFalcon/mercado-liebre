@@ -3,7 +3,7 @@ const path = require ('path')
 
 const app = express()
 
-const publicPath = path.resolve (__dirname, './public') ;
+const publicPath = path.resolve (__dirname, './Public') ;
 
 app.listen(process.env.PORT || 3000, () => { 
     console.log ("servidor corriendo en el purto 3000")
