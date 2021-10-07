@@ -17,3 +17,11 @@ app.get('/', function(req, res, next) {
     res.sendFile(path.resolve(__dirname, './Views/home.html'));
   });
   
+
+app.get('/login', function(req, res, next) {
+    res.sendFile(path.resolve(__dirname, './Views/login.html'));
+  });
+
+app.get('/register', function(req, res, next) {
+    res.sendFile(path.resolve(__dirname, './Views/register.html'));
+  });
